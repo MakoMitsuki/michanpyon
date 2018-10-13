@@ -1,0 +1,203 @@
+/* http://colorpalettes.net/color-palette-3818/
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+*/
+
+@font-face {
+  font-family: 'DreamOnly';
+  font-style: normal;
+  font-weight: 400;
+  src: url('https://cdn.glitch.com/a8027c13-8ce9-42b3-be4b-2eafbbd6d1b2%2FDream%20Only.ttf?1525747389583');
+}
+
+@font-face {
+  font-family: 'QuicksandLight';
+  font-style: normal;
+  font-weight: 600;
+  src: url('https://cdn.glitch.com/a8027c13-8ce9-42b3-be4b-2eafbbd6d1b2%2FQuicksand_Light.otf?1525747371611');
+}
+
+@font-face {
+  font-family: 'Quicksand_Bold';
+  font-style: normal;
+  font-weight: 600;
+  src: url('https://cdn.glitch.com/a8027c13-8ce9-42b3-be4b-2eafbbd6d1b2%2FQuicksand_Bold.otf?1525747410658');
+}
+
+body {
+  font-family: "QuicksandLight", "proxima-nova-soft", "Proxima Nova Soft", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  background-color: #FFFFFF;
+    margin-left: 20px;
+  color: #000000;
+    size: 45px;
+  display: flex;
+  justify-content:center;
+  align-items:flex-start;
+  text-align: center;
+  /*line-height: 2px;*/
+}
+
+b {
+  font-family: "Quicksand_Bold"; 
+}
+
+#root {
+  align-self:center;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+  font-size: 8px;
+}
+
+h1 {
+  font-size: 28px;
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 21px;
+}
+
+.maintitle {
+  font-size: 45px;
+  text-decoration: none;
+  font-family: "DreamOnly", "proxima-nova-soft", "Proxima Nova Soft", Helvetica, Arial, sans-serif;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  color: #ff6760;
+  transition: color 0.25s ease-in;
+}
+
+/*#maintitle:hover {
+  color: #f9f1f0;
+}*/
+
+.mainmenu
+{
+  font-family: "QuicksandLight", sans-serif;
+  font-size: 18px;
+  border: none;
+  margin-top: 12px;
+  margin-bottom: 5px;
+  background-color: transparent;
+  color: #000000;
+  text-align: center;
+  text-decoration: none;
+  align-items: center;
+  display: inline-block;
+  padding: 3px 3px;
+  border-radius: 9px;
+  /*120px 25px normal */
+  width: 120px;
+  height:25%;
+  /*width: 25%;*/
+  -webkit-transition: height 1s, background-color 0.5s ease, color 0.5s; /* Safari */
+}
+
+.nav
+{
+    line-height: 20px;
+}
+
+.mainmenu:hover
+{
+  color: #ffffff;
+}
+
+.about:hover
+{
+  background-color: #db9f97;
+}
+
+.code:hover
+{
+  background-color: #ffa0a2;
+}
+
+.art:hover
+{
+  background-color: #d4bea4;
+}
+
+.game:hover
+{
+  background-color: #9ea30d;
+}
+
+.contact:hover
+{
+  background-color: #70a89c;
+}
+
+a {
+  text-decoration: none;
+}
+
+.coral {
+  color:#ff6760;
+}
+
+.mauve{
+  color:#e5d5d3;
+}
+
+.salmon{color:#ea9193;}
+
+.beige{color:#d4bea4;}
+
+.olive{color:#9ea30d;}
+
+.darkteal{color:#70a89c;}
+
+li {
+  list-style-type: none;
+  line-height: 2px;
+}
+
+.contentBody
+{
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.gamebody{
+  display: inline-block;
+    flex-direction: row;
+  align-items: flex-start;
+}
+
+.gamebody_part
+{
+  display: inline-block;
+  flex-grow: 1;
+  /*height: auto;*/
+  width: 175px;
+  margin: 10px;
+  padding: 20px;
+  background-color: #d9dbdd;
+  border-radius: 9px;
+}
+
+/* IMAGES */
+
+img
+{
+  max-width: 50%;
+  height: auto;
+  border-radius: 8px;
+  margin: 10px;
+}
+
+.socialmedia .socialmediaicon
+{
+  max-width: 7%;
+}
+
+textarea
+{
+  resize: vertical;
+  height: auto;
+  min-width: 75%;
+}
