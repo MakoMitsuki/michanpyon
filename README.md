@@ -1,7 +1,7 @@
-michanpyon.glitch.me
+michanpyon.herokuapp.com
 =================
 
-Made in Glitch.me with React.js by Mika C.
+Made with React.js by Mika C.
 -------------------
 
 \ ゜o゜)ノ
