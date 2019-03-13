@@ -17,10 +17,7 @@
     "node": "8.x"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "url": "https://glitch.com/edit/#!/hello-express"
